@@ -1,7 +1,7 @@
 import React, { useState } from 'react'
 import Layout from '../src/layout/layout'
 import VideoPopUp from '../src/video-pop-up';
-import GlaxGallery from './../src/components/glax_gallery'
+import GlaxGallery from '../src/components/glax_gallery'
 
 export default function ProjectSingle() {
     const [isShow, setShow] = useState(false); 
@@ -50,12 +50,10 @@ export default function ProjectSingle() {
                     <div className="glax_tm_justified_content">
                         <div className="leftpart">
                             <div className="title_holder">
-                                <h3>Odeon Industrial Machinery</h3>
+                                <h3>Precision Assembly Automation, Stellar Electronics</h3>
                             </div>
                             <div className="definition">
-                                <p>We go beyond testing, inspecting and certifying products; we are a Total Quality Assurance provider to industries worldwide. Through our global network of state-of-the-art facilities and industry-leading technical expertise we provide innovative and bespoke Assurance, Testing, Inspection and Certification services to customers. We provide a systemic approach to supporting our customers’ Quality Assurance efforts in each of the areas of their operations including R&amp;D, raw materials sourcing, components suppliers, manufacturing, transportation, distribution and retail channels, and consumer management.</p>
-                                <p className="bold">Heavy equipment and industrial machines are more complex than ever. In an increasingly competitive market, companies must ensure innovation and manage complexity</p>
-                                <p>Matao is an industry leader with more than 43,000 employees in 1,000 locations in over 100 countries. We deliver Total Quality Assurance expertise 24 hours a day, 7 days a week with our industry-winning processes and customer-centric culture. Whether your business is local or global, we can help to ensure that your products meet quality, health, environmental, safety, and social accountability standards for virtually any market around the world. We hold extensive global accreditations, recognitions, and agreements, and our knowledge of and expertise in overcoming regulatory, market, and supply chain hurdles is unrivalled.</p>
+                                <p>Quantum has been engaged by Stellar Electronics, a leading electronics manufacturer in Silicon Valley, to enhance their assembly line operations through precision assembly automation. With the aim of improving productivity, quality, and efficiency, Quantum will integrate advanced robotic systems into Stellar Electronics' assembly lines. The robotics integration will involve the seamless incorporation of robotic arms, machine vision systems, and collaborative robots to perform intricate assembly tasks with utmost precision. Quantum's expertise in robotics integration and their deep understanding of Stellar Electronics' specific requirements will result in an optimized assembly process, reducing errors, increasing throughput, and ultimately enhancing the overall manufacturing operations.</p>
                             </div>
                             <div className="glax_tm_share_wrap">
                                 <label>Share:</label>
@@ -79,27 +77,19 @@ export default function ProjectSingle() {
                                 <ul>
                                     <li>
                                         <label>Value</label>
-                                        <span>€3,400,000,000</span>
+                                        <span>$2,400,000</span>
                                     </li>
                                     <li>
                                         <label>Client</label>
-                                        <span>Germany and Denmark Governments</span>
-                                    </li>
-                                    <li>
-                                        <label>Architect</label>
-                                        <span>Vinci Company</span>
+                                        <span>Stellar Electronics</span>
                                     </li>
                                     <li>
                                         <label>Location</label>
-                                        <span>Germany-Denmark</span>
+                                        <span>Silicon Valley, California</span>
                                     </li>
                                     <li>
                                         <label>Completion Date</label>
-                                        <span>02.05.2005</span>
-                                    </li>
-                                    <li>
-                                        <label>Square Footage</label>
-                                        <span>2,200,000</span>
+                                        <span> December 2022</span>
                                     </li>
                                 </ul>
                                 <div className="first_square"></div>

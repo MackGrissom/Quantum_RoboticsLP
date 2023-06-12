@@ -12,42 +12,42 @@ const GlaxGallery = () => {
 
   const unsplashPhotos = [
     {
-      id: "v8SjXTTI0GA",
+      id: "dRMQiAubdws",
       width: 1920,
       height: 1280
     },
     {
-      id: "JdWU1Y7FS8g",
+      id: "LSiJEJmfuaU",
       width: 1920,
       height: 1920
     },
     {
-      id: "cw_9z3ORslk",
+      id: "Uz0uQXvOtEY",
       width: 1920,
       height: 1276
     },
     {
-      id: "CpSb6_OawtA",
+      id: "AUxh4Tccuf8",
       width: 1920,
       height: 1279
     },
     {
-      id: "7kSnMLGoR9w",
+      id: "1-gPzuwXWCM",
       width: 1920,
       height: 1267
     },
     {
-      id: "wIYDNL0M_p4",
+      id: "wSTCaQpiLtc",
       width: 1920,
       height: 1280
     },
     {
-      id: "u3Z7clTfuOo",
+      id: "WjOWazUPAss",
       width: 1920,
       height: 3413
     },
     {
-      id: "E1h3mkrJTT4",
+      id: "GKY_Sbj_dl8",
       width: 1920,
       height: 1080
     }

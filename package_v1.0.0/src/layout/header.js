@@ -41,9 +41,7 @@ export default function Header({style}) {
                     <li><a href="/contact">Contact</a></li>
                   </ul>
                 </div>
-                <div className="purchase_button">
-                  <a href="https://themeforest.net/user/trendycoder/portfolio">Purchase now</a>
-                </div>
+              
                 <div className="logo_wrap">
                   <img src="img/desktop-logo.png" alt="" />
                   <span className="left" />
