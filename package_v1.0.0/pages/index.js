@@ -38,7 +38,7 @@ export default function Home() {
         <HomeProject />
         {/* /HOME PROJECT */}
         {/* HOME BLOG */}
-        <HomeBlog />
+        {/* <HomeBlog /> */}
         {/* /HOME BLOG */}
       </Layout>
 

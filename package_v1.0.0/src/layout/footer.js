@@ -37,7 +37,7 @@ export default function Footer() {
                                                     <h3>About Company</h3>
                                                 </div>
                                                 <div className="definition">
-                                                    <p>We are an award winning construction company focused on user-driven outcomes. We strive to create meaningful connections for users through considered.</p>
+                                                    <p>Mockup Website built by Mack Grissom. Please visit mackgrissom.io to contact me. </p>
                                                 </div>
                                             </div>
                                         </li>
@@ -106,7 +106,7 @@ export default function Footer() {
                             </ul>
                         </div>
                         <div className="copyright">
-                            <p>© 1934 - 2022 <Link href="#"><a className="constructify">Glax, LCC</a></Link>. All rights reserved. <Link href="https://themeforest.net/user/trendycoder"><a className="trendycoder">TrendyCoder</a></Link></p>
+                            <p>© 2023 <Link href="#"><a className="constructify">Full Circle, LLC</a></Link>. All rights reserved. <Link href="https://themeforest.net/user/trendycoder"><a className="trendycoder">Mack Grissom</a></Link></p>
                             <Link href="#"><a className="glax_tm_totop">
                                 <span className="shape" />
                                 <span className="name">To Top</span>

@@ -13,7 +13,7 @@ export default function TopBar({ isTopbar, activeTopbar }) {
         <div className={`lang_box ${isActive ? "opened" : ""}`}>
           <ul onClick={activeTrueFalse}>
             <li onClick={() => setSelect("Eng")}><span className={isSelect == "Eng" ? "selected" : ""}>Eng</span></li>
-            <li onClick={() => setSelect("Spa")}><span className={isSelect == "TH" ? "selected" : ""}>TH</span></li>
+            <li onClick={() => setSelect("TH")}><span className={isSelect == "TH" ? "selected" : ""}>TH</span></li>
           </ul>
         </div>
       </div>
@@ -38,11 +38,11 @@ export default function TopBar({ isTopbar, activeTopbar }) {
             <div className="left_part_wrap">
               <div className="share_wrap">
                 <ul>
-                  <li><a href="#"><i className="xcon-facebook" /></a></li>
-                  <li><a href="#"><i className="xcon-twitter" /></a></li>
-                  <li><a href="#"><i className="xcon-instagram" /></a></li>
-                  <li><a href="#"><i className="xcon-pinterest" /></a></li>
-                  <li><a href="#"><i className="xcon-behance" /></a></li>
+                  <li><a href="www.mackgrissom.io"><i className="xcon-facebook" /></a></li>
+                  <li><a href="www.mackgrissom.io"><i className="xcon-twitter" /></a></li>
+                  <li><a href="www.mackgrissom.io"><i className="xcon-instagram" /></a></li>
+                  <li><a href="www.mackgrissom.io"><i className="xcon-pinterest" /></a></li>
+                  <li><a href="www.mackgrissom.io"><i className="xcon-behance" /></a></li>
                 </ul>
               </div>
               {/* Language Switcher*/}

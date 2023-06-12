@@ -59,7 +59,7 @@ export default function HomeProject() {
                                                         <div className="overlay_color" />
                                                         <span className="plus" />
                                                         <div className="title_holder">
-                                                            <h3>Odeon Industry Machinery</h3>
+                                                            <h3>Autonomous Warehouse Solutions, GLS</h3>
                                                             <div className="glax_tm_view_more_wrap">
                                                                 <Link href="#"><a>
                                                                     <span className="text">View More</span>
@@ -79,7 +79,7 @@ export default function HomeProject() {
                                                         <div className="overlay_color" />
                                                         <span className="plus" />
                                                         <div className="title_holder">
-                                                            <h3>Chaban Car Industry</h3>
+                                                            <h3>Automated Quality Control System, MedTech Innovations</h3>
                                                             <div className="glax_tm_view_more_wrap">
                                                                 <Link href="#"><a>
                                                                     <span className="text">View More</span>

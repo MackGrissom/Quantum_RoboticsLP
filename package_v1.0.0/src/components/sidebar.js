@@ -30,20 +30,19 @@ export default function Siderbar({isTopbar, activeTopbar}) {
                                     <img src="img/contact/1.jpg" alt="" />
                                 </div>
                                 <div className="definitions_wrap">
-                                    <h3>Head Office in New-York</h3>
-                                    <p>775 New York Ave, Brooklyn, NY 11203</p>
-                                    <p>Phone: +1 202-415-7234</p>
-                                    <p><span>Email:</span><a href="#">w.constructify@gmail.com</a></p>
+                                    <h3>Mockup Website Built by Mack Grissom</h3>
+                                    
+                                    <p><span>Email:</span><a href="#" mailto="mack@mackgrissom.io">mack@mackgrissom.io</a></p>
                                 </div>
                             </div>
                         </div>
                         <div className="drop_list message" style={ isTopbar === 2  ? {display: "block"} : {display: "none"} } >
                             <div className="short_contact">
                                 <h3 className="title">Request a Quote</h3>
-                                <p className="subtitle">Looking for a quality and affordable builder for your next project?</p>
+                                <p className="subtitle">Looking for a beautiful modern website?r?</p>
                                 <div className="inputs_wrap">
                                     <HelpfulContactForm/>
-                                    {/* <form action="/" method="post">
+                                    <form action="/" method="post">
                                         <div className="input_list_wrap">
                                             <ul>
                                                 <li>
@@ -61,7 +60,7 @@ export default function Siderbar({isTopbar, activeTopbar}) {
                                         <div className="button">
                                             <a href="#">Send Message</a>
                                         </div>
-                                    </form> */}
+                                    </form>
                                 </div>
                             </div>
                         </div>
@@ -70,8 +69,8 @@ export default function Siderbar({isTopbar, activeTopbar}) {
                                 <div className="image">
                                     <img src="img/estimate/call.png" alt="" />
                                 </div>
-                                <h3>Toll Free</h3>
-                                <p><a href="tel:18009876543">1-800-987-6543</a></p>
+                                <h3>WhatsApp</h3>
+                                <p><a href="tel:18009876543">+1 404-606-3147</a></p>
                             </div>
                         </div>
                         <div className="drop_list clock" style={ isTopbar === 4  ? {display: "block"} : {display: "none"} } >

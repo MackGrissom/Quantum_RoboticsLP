@@ -41,9 +41,9 @@ export default function Portfolio() {
                             <div className={isActive ? "filter_list opened" : "filter_list"} >
                                 <ul onClick={activeTrueFalse} className="glax_tm_portfolio_filter">
                                     <li onClick={() => TabActive(0)}><Link href="#"><a className="current" data-filter="*">All</a></Link></li>
-                                    <li onClick={() => TabActive(1)}><Link href="#"><a data-filter=".architecture">Architecture</a></Link></li>
-                                    <li onClick={() => TabActive(2)}><Link href="#"><a data-filter=".interior">Interior</a></Link></li>
-                                    <li onClick={() => TabActive(3)}><Link href="#"><a data-filter=".renovation">Renovation</a></Link></li>
+                                    <li onClick={() => TabActive(1)}><Link href="#"><a data-filter=".architecture">Consulting</a></Link></li>
+                                    <li onClick={() => TabActive(2)}><Link href="#"><a data-filter=".interior">Asssembly</a></Link></li>
+                                    <li onClick={() => TabActive(3)}><Link href="#"><a data-filter=".renovation">Maintenance</a></Link></li>
                                 </ul>
                             </div>
                         </div>
@@ -56,7 +56,7 @@ export default function Portfolio() {
                                         <div className="overlay_color" />
                                         <span className="plus" />
                                         <div className="title_holder">
-                                            <h3>Matao Gas and Oil Organization</h3>
+                                            <h3>Precision Assembly Automation, Stellar Electronics</h3>
                                             <div className="glax_tm_view_more_wrap">
                                                 <Link href="#"><a>
                                                     <span className="text">View More</span>
@@ -76,7 +76,7 @@ export default function Portfolio() {
                                         <div className="overlay_color" />
                                         <span className="plus" />
                                         <div className="title_holder">
-                                            <h3>Odeon Industrial Machinery</h3>
+                                            <h3>Autonomous Warehouse Solutions, GLS</h3>
                                             <div className="glax_tm_view_more_wrap">
                                                 <Link href="#"><a>
                                                     <span className="text">View More</span>
@@ -96,7 +96,7 @@ export default function Portfolio() {
                                         <div className="overlay_color" />
                                         <span className="plus" />
                                         <div className="title_holder">
-                                            <h3>Chaban Car Industry</h3>
+                                            <h3>Automated Quality Control System, Medtech Innovations</h3>
                                             <div className="glax_tm_view_more_wrap">
                                                 <Link href="#"><a>
                                                     <span className="text">View More</span>
@@ -109,64 +109,13 @@ export default function Portfolio() {
                                 </div>
                             </div>
                             <div style={Tab == 2 || Tab == 0 ? { display: "block" } : { display: "none" }} className="filter-item architecture">
-                                <div className="inner">
-                                    <div className="image_wrap">
-                                        <img src="img/portfolio/750x500.jpg" alt="" />
-                                        <div className="image" style={{ "backgroundImage": "url(img/portfolio/23.jpg)" }} />
-                                        <div className="overlay_color" />
-                                        <span className="plus" />
-                                        <div className="title_holder">
-                                            <h3>Arturo-Merino-Benitez</h3>
-                                            <div className="glax_tm_view_more_wrap">
-                                                <Link href="#"><a>
-                                                    <span className="text">View More</span>
-                                                    <span className="arrow"><img className="svg" src="img/svg/arrow-right.svg" alt="" /></span>
-                                                </a></Link>
-                                            </div>
-                                        </div>
-                                        <Link href="/project-single"><a className="link"></a></Link>
-                                    </div>
-                                </div>
+                               {/* project goes here */}
                             </div>
                             <div style={Tab == 1 || Tab == 0 ? { display: "block" } : { display: "none" }} className="filter-item renovation">
-                                <div className="inner">
-                                    <div className="image_wrap">
-                                        <img src="img/portfolio/750x500.jpg" alt="" />
-                                        <div className="image" style={{ "backgroundImage": "url(img/portfolio/24.jpg)" }} />
-                                        <div className="overlay_color" />
-                                        <span className="plus" />
-                                        <div className="title_holder">
-                                            <h3>Femern Tunnel,Germany-Denmark</h3>
-                                            <div className="glax_tm_view_more_wrap">
-                                                <Link href="#"><a>
-                                                    <span className="text">View More</span>
-                                                    <span className="arrow"><img className="svg" src="img/svg/arrow-right.svg" alt="" /></span>
-                                                </a></Link>
-                                            </div>
-                                        </div>
-                                        <Link href="/project-single"><a className="link"></a></Link>
-                                    </div>
-                                </div>
+                               {/* project goes here */}
                             </div>
                             <div style={Tab == 2 || Tab == 0 ? { display: "block" } : { display: "none" }} className="filter-item interior">
-                                <div className="inner">
-                                    <div className="image_wrap">
-                                        <img src="img/portfolio/750x500.jpg" alt="" />
-                                        <div className="image" style={{ "backgroundImage": "url(img/portfolio/22.jpg)" }} />
-                                        <div className="overlay_color" />
-                                        <span className="plus" />
-                                        <div className="title_holder">
-                                            <h3>Melia Hotel La Defense</h3>
-                                            <div className="glax_tm_view_more_wrap">
-                                                <Link href="#"><a>
-                                                    <span className="text">View More</span>
-                                                    <span className="arrow"><img className="svg" src="img/svg/arrow-right.svg" alt="" /></span>
-                                                </a></Link>
-                                            </div>
-                                        </div>
-                                        <Link href="/project-single"><a className="link"></a></Link>
-                                    </div>
-                                </div>
+                                
                             </div>
                         </div>
                     </div>
