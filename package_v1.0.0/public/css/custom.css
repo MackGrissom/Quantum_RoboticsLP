@@ -1,0 +1,120 @@
+.prev_next {
+    transform: none;
+}
+
+.tm_next_button {
+    margin-right: 3px;
+}
+
+.call_wrap a {
+    text-decoration: none;
+    color: #fff;
+}
+
+/**********Mobile Menu***********/
+.glax_tm_mobile_bar_wrap .menu_list_wrap.close {
+    height: 0;
+    opacity: 0;
+    transition: height 1.35s, opacity 1.15s ease-out 1.15s;
+}
+
+.glax_tm_mobile_bar_wrap .menu_list_wrap.open {
+    height: 300px;
+    transition: height 1.35s, opacity 1.35s, ease-in 1.15s;
+    opacity: 1;
+}
+
+/*******************Home Slider********************/
+.pagination-custom {
+    width: auto !important;
+}
+
+/************Language Switcher**************/
+.lang_Switcher_dropdown_wrap {
+    max-width: 1250px;
+    margin: 0 auto;
+    padding-left: 520px;
+}
+
+.lang_switcher_wrap {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+}
+
+.lang_Switcher_dropdown_wrap .language a:hover,
+.lang_Switcher_dropdown_wrap .lang_box:hover {
+    cursor: pointer;
+}
+
+.lang_Switcher_dropdown_wrap .lang_box .selected {
+    color: #fff;
+    /* font-weight: bold;   */
+}
+
+/* Tab-dropdown */
+.glax_tm_projects_wrap .filter_wrap .filter_list {
+    height: 0;
+    opacity: 0;
+    display: block !important;
+    transition: height 0.35s, opacity 0.35s, ease-out 0.35s !important;
+}
+
+.glax_tm_projects_wrap .filter_wrap .opened {
+    height: 170px !important;
+    transition: height .75s, opacity .35s, ease-in .35s !important;
+    opacity: 1 !important;
+}
+
+/* Tab Content Animation */
+@keyframes slideInFromLeft {
+    0% {
+        transform: translateY(50%);
+    }
+
+    100% {
+        transform: translateY(0);
+    }
+}
+
+.inner {
+    /* This section calls the slideInFromLeft animation we defined above */
+    animation: 0.5s ease-out 0s slideInFromLeft;
+
+    /* background: #333; */
+    /* padding: 30px; */
+}
+
+
+/*Yarl Lightbox CSS customization*/
+
+.yarl__container {
+    background-color: var(--yarl__color_backdrop, #000000cc) !important
+}
+
+.react-photo-album--row {
+    justify-content: space-around !important;
+}
+
+
+/*Custom Contact Form*/
+.glax_tm_contact_wrap .inner_wrap .row input.a, .glax_tm_contact_wrap .inner_wrap .row input.a:focus{
+    height: auto !important;
+    width: auto !important;
+    border: none;
+}
+.glax_tm_blog_single_wrap .glax_tm_contact_wrap input.a{
+	background-color: #45a2df !important;
+	font-family: "Montserrat";
+}
+
+.inputs_wrap .button .a{
+    background-color: #ad3110;
+    border: none;
+}
+
+
+/* Footer Parallax Custom CSS  */
+.glax_tm_universal_parallax_wrap .main_content.responsibility, .glax_tm_universal_parallax_wrap .main_content.footer{
+    background-color:rgba(8,18,37,0.9)
+}
