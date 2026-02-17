@@ -1,6 +1,7 @@
 export const NAV_LINKS = [
   { label: "About", href: "#about" },
   { label: "Services", href: "#services" },
+  { label: "Principles", href: "#principles" },
   { label: "Threat", href: "#threat" },
   { label: "Technology", href: "#technology" },
   { label: "Contact", href: "#cta" },
@@ -8,6 +9,7 @@ export const NAV_LINKS = [
 
 export const HERO = {
   headline: "QUANTUM",
+  tagline: "We are more than a cybersecurity company",
   sublines: [
     "> Initializing post-quantum encryption protocols...",
     "> Lattice-based key exchange: ACTIVE",
@@ -19,13 +21,15 @@ export const HERO = {
 };
 
 export const ABOUT = {
-  heading: "Post-Quantum Cryptography",
+  topTitle: "Let me introduce",
+  heading: "Our Company",
   subheading: "Securing the future against quantum threats",
   paragraphs: [
-    "Quantum computers will break RSA, ECC, and every classical encryption algorithm your organization relies on. This isn't theoretical—it's an engineering timeline. NIST has already standardized the replacements.",
-    "Post-quantum cryptography (PQC) uses mathematical problems that remain hard even for quantum computers: structured lattices, hash-based signatures, and multivariate equations. We implement these standards before the threat arrives.",
+    "For over a decade, Quantum has been at the forefront of cryptographic innovation. We specialize in post-quantum cryptography — developing and implementing encryption algorithms that remain secure even against quantum computers. Our focus extends beyond simple key exchange: we deliver comprehensive PQC migration strategies that protect your entire infrastructure.",
+    "Quantum computers will break RSA, ECC, and every classical encryption algorithm your organization relies on. This isn't theoretical — it's an engineering timeline. NIST has already standardized the replacements, and we implement these standards before the threat arrives.",
   ],
-  stat: { value: "2030", label: "Estimated year quantum computers break RSA-2048" },
+  experience: { number: "12+", label: "Years of Cryptographic Experience" },
+  badge: "World's Leading Post-Quantum Encryption Consultants",
 };
 
 export const SERVICES = [
@@ -51,6 +55,48 @@ export const SERVICES = [
   },
 ] as const;
 
+export const PRINCIPLES = [
+  {
+    number: "01",
+    title: "Innovation",
+    description: "We push cryptographic boundaries, pioneering lattice-based and hash-based solutions that define the post-quantum standard.",
+  },
+  {
+    number: "02",
+    title: "Integrity",
+    description: "We operate with unwavering integrity — every algorithm we deploy meets NIST FIPS standards with full transparency and audit trails.",
+  },
+  {
+    number: "03",
+    title: "Client-Centricity",
+    description: "Every migration plan is tailored to your infrastructure. We understand your unique cryptographic dependencies and build personalized PQC roadmaps.",
+  },
+  {
+    number: "04",
+    title: "Collaboration",
+    description: "We work alongside NIST, industry consortiums, and your internal teams to ensure seamless adoption of quantum-safe standards.",
+  },
+] as const;
+
+export const RESPONSIBILITY = {
+  stat: { number: "90+", label: "Clients" },
+  badge: "World's Leading Post-Quantum Encryption Consultants",
+  capabilities: [
+    "Expert PQC Solutions",
+    "NIST-Certified Standards",
+    "Cutting-edge Lattice Cryptography",
+    "Streamlined Key Migration",
+    "Customized Encryption Systems",
+    "End-to-End Integration",
+    "Performance Optimization",
+    "Compliance & Audit Support",
+    "Scalable Quantum-Safe Architecture",
+    "Training & Ongoing Support",
+    "Cryptographic Inventory Analysis",
+    "Data-driven Security Insights",
+  ],
+};
+
 export const THREAT_TIMELINE = [
   { year: "2024", event: "NIST finalizes PQC standards", status: "complete" },
   { year: "2025", event: "Early adopters begin migration", status: "active" },
@@ -63,7 +109,7 @@ export const THREAT_INFO = {
   heading: "The Quantum Threat",
   subheading: "Harvest Now, Decrypt Later",
   description:
-    "Nation-state actors are harvesting encrypted data today, storing it until quantum computers can break the encryption. Your most sensitive communications—financial records, state secrets, intellectual property—are being collected right now for future decryption.",
+    "Nation-state actors are harvesting encrypted data today, storing it until quantum computers can break the encryption. Your most sensitive communications — financial records, state secrets, intellectual property — are being collected right now for future decryption.",
   warning: "Every day without PQC migration is another day of exposure.",
 };
 
@@ -95,6 +141,21 @@ export const ALGORITHMS = [
     description: "Compact lattice-based signatures using NTRU lattices. Smallest signature sizes among PQC candidates.",
     securityLevel: 88,
     standard: "Round 4",
+  },
+] as const;
+
+export const PROJECTS = [
+  {
+    title: "Enterprise PKI Migration, Fortune 500 Bank",
+    description: "Full public key infrastructure migration to CRYSTALS-Kyber, protecting 2M+ customer accounts.",
+  },
+  {
+    title: "Quantum-Safe VPN Deployment, Federal Agency",
+    description: "Implemented hybrid key exchange across 500+ endpoints with zero downtime.",
+  },
+  {
+    title: "Cryptographic Audit, Healthcare Provider",
+    description: "Identified and catalogued 12,000+ RSA dependencies across HIPAA-compliant systems.",
   },
 ] as const;
 

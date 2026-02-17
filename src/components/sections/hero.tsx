@@ -15,7 +15,7 @@ export function Hero() {
 
       <div className="relative z-10 mx-auto max-w-5xl px-6 text-center">
         {/* Glitch heading */}
-        <div className="glitch-hover relative mb-8 cursor-default">
+        <div className="glitch-hover relative mb-6 cursor-default">
           <h1 className="text-6xl font-black tracking-tighter md:text-8xl lg:text-9xl">
             <span className="bg-gradient-to-r from-cyan via-foreground to-purple bg-clip-text text-transparent">
               {HERO.headline}
@@ -35,6 +35,11 @@ export function Hero() {
             {HERO.headline}
           </h1>
         </div>
+
+        {/* Corporate tagline from old template */}
+        <p className="mb-6 text-xl text-text-secondary md:text-2xl">
+          {HERO.tagline}
+        </p>
 
         {/* Subtitle pill */}
         <div className="mx-auto mb-8 inline-block rounded-full border border-cyan/20 bg-cyan/5 px-4 py-1.5">
